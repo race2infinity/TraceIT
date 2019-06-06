@@ -2,18 +2,18 @@
 
 <div align="center">
 
-![TraceIT](https://i.imgur.com/LdBukbT.png)
+  ![TraceIT](https://i.imgur.com/LdBukbT.png)
+  <hr>
+  <p align="center">A project that aims to make the supply chain easier to track and trace</p>
 
-<p align="center">A project that aims to make the supply chain easier to track and trace</p>
-<br><br>
 </div>
 
 ## Table of Contents <a name="contents"/>
-+ [Table of Contents](#contents)
 + [About](#about)
 + [Problem Statement](#problem)
 + [Current Scenario](#scenario)
-+ [Concept](#concept)
++ [Working](#working)
++ [Why Blockchain?](#blockchain)
 + [Contributors](#contributors)
 
 ## About <a name="about"/>
@@ -39,7 +39,7 @@
 + The transaction of goods happens in pallets, cartons and individual products.
 + At the storage areas of every stake holder, there is a chance that products of different batches are grouped together. Hence, tracing and tracking of product batches becomes a hassel.
 
-## Concept <a name="concept"/>
+## Working <a name="working"/>
 The idea is to design a system that can keep track of the flow of goods from pallets to cartons to individual products.
 
 ### Manufacturing and storing in a Warehouse
@@ -51,8 +51,7 @@ The idea is to design a system that can keep track of the flow of goods from pal
 + The product that is to be dispatched is mapped to the container in which it will be shipped. The quantity of the product is entered.
 + This ensures that a batch of products is tracked throughout the supply chain, even if it gets split at any point.
 
-## Blockchain
-
+## Why Blockchain? <a name="blockchain"/>
 ### Immutability of data
 + For compliance and security, IT infrastructure requires a high cost to maintain.
 + The key things to maintain in this solution is data integrity.
@@ -67,12 +66,6 @@ The idea is to design a system that can keep track of the flow of goods from pal
 + Unlike Ethereum or Bitcoin, where all transactions are stored on one ledger, Hyperledger fabric has two different paths - one keeps track of data while the other keeps track of world state.
 + In a Hyperledger fabric, each node cannot access all the data. The access to data that each stakeholder has is defined for each individual.
 + The adoption of Hyperledger fabric is increasing rapidly among major enterprises like IBM and Linux Foundations.
-
-### Use Case
-+ We are using Hyperledger to store the data of products flowing in the supply chain.
-+ This data includes details like batch numbers, date of manufacture, path taken by a product in the supply chain, etc.
-+ No stakeholder can change, modify or tamper with this data. This prevents malpractices like tampering with data in databases to earn profit.
-+ Layers of stakeholders form a permission network to ensure security and immutability of data.
 
 ## Web Interface
 + The Web Interface allows stakeholders to view details of products pertaining to them.
